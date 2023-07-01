@@ -1,3 +1,11 @@
 body {
     font-family: Arial;
 }
+
+.project-heading {
+    text-align: center;
+    border: 1px;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
