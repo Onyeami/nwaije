@@ -49,20 +49,28 @@
     </section>
     <form>
         <label for="city">City</label>
-        <input type="text">
+        <select name="city" id="city">
+            <option value="arochukwu">Arochukwu</option>
+            <option value="umuahia">Umuahia</option>
+            <option value="aba">Aba</option>
+            <option value="isuikwuato">Isuikwuato</option>
+            <option value="ohafia">Ohafia</option>
+            <option value="abiriba">Abiriba</option>
+            <option value="ukwa">Ukwa</option>
+        </select>
         <fieldset>
             <legend>Your details</legend>
             <div>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="full_name" placeholder="Your name">
+                <input type="text" id="name" name="name" placeholder="Your name" required>
             </div>
             <div>
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Your email">
+                <input type="email" id="email" placeholder="Your email" required>
             </div>
             <div>
                 <label for="phone">Phone</label>
-                <input type="number" id="phone" placeholder="Your phone number">
+                <input type="number" id="phone" placeholder="Your phone number" required>
             </div>
         </fieldset>
         <label for="start">Start</label>
