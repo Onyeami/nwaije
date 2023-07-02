@@ -5,3 +5,7 @@
 body {
     font-family: Arial;
 }
+
+form {
+    margin-top: 2rem;
+}
