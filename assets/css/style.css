@@ -13,14 +13,21 @@ form {
 table {
     width: 100%;
 }
+
 tr {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
-tr, th, td {
+
+tr,
+th,
+td {
     text-align: center;
 }
-th, td {
+
+th,
+td {
     border: 1px solid black;
     padding: 5px;
 }
